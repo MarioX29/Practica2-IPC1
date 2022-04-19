@@ -114,7 +114,7 @@ public class Memoria extends JPanel{
                     if( !carta1.cartaBloqueada()){
                         carta1.MostrarCartas();
                        System.out.println("carta1: " + carta1.getnombrePokemon() ); 
-                    }else{//no toma en cuenta
+                    }else{
                       contadorClick=0;   
                     }                
                 }else if( contadorClick==2 && !carta1.getName().equals( ((Celda) e.getSource()).getName()) ){
